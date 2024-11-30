@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Income";
+    }
+<h1>Income Records</h1>
+
+<p>Here is my Income Details</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Source</th>
+            <th>Amount</th>
+            <th>Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @* Replace the following with data dynamically rendered from the backend *@
+        @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Source</td>
+            <td>@item.Amount</td>
+            <td>@item.Date.ToString("yyyy-MM-dd")</td>
+
+            <td>
+                    <a class="btn btn-primary btn-sm" href="/Home/EditIncome/@item.Id">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Home/DeleteIncome/@item.Id" onclick="return confirm('Are you sure you want to delete this income record?')">Delete</a>
+                </td>   
+
+        </tr>
+    }
+    </tbody>
+</table>
+<a class="btn btn-success" href="/Home/AddIncome">Add New Income</a>

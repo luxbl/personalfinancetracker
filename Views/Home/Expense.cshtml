@@ -1,0 +1,28 @@
+@model List<Expense>
+
+    <h1>Expense Records</h1>
+    <p>All Expenses are Here In Details</p>
+
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Source</th>
+                <th>Amount</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+
+    <tbody>
+        @foreach  (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Source</td>
+                <td>@item.Amount</td>
+                <td>@item.Date.ToString("yyyy-mm-dd")</td>
+            </tr>
+        }
+    </tbody>
+    </table>
