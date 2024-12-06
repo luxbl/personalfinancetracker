@@ -273,8 +273,6 @@
 /Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/eru3ghryog-muycvpuwrr.gz
 /Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/xrk6v6d1k5-87fc7y1x7t.gz
 /Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/rcqvkjhfmz-mlv21k5csn.gz
-/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/auqyck9lpb-4bvobb97rq.gz
-/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/9dertw610c-4bvobb97rq.gz
 /Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/staticwebassets.build.json
 /Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/staticwebassets.development.json
 /Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -289,3 +287,6 @@
 /Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/personalfinancetracker.pdb
 /Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/personalfinancetracker.genruntimeconfig.cache
 /Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/ref/personalfinancetracker.dll
+/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/personalfinancetracker.sourcelink.json
+/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/auqyck9lpb-4bvobb97rq.gz
+/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/9dertw610c-4bvobb97rq.gz

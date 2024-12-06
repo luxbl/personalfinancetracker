@@ -74,25 +74,3 @@ app.MapControllerRoute(
 
 
 app.Run();
-
-
-public class MyService
-{
-    private readonly IHttpContextAccessor _httpContextAccessor;
-
-    public MyService(IHttpContextAccessor httpContextAccessor)
-    {
-        _httpContextAccessor = httpContextAccessor;
-    }
-
-    public void ManageSession()
-    {
-#pragma warning disable CS8602 // Dereference of a possibly null reference.
-        var session = _httpContextAccessor.HttpContext.Session;
-#pragma warning restore CS8602 // Dereference of a possibly null reference.
-        session.SetString("UserLoggedIn", "true");
-
-        var userId = session.GetString("UserLoggedIn");
-        Console.WriteLine($"UserLoggedIn: {userId}");
-    }
-}
