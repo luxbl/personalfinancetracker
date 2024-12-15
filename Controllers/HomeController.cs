@@ -45,13 +45,23 @@ private  static List<Income> IncomeData = new List<Income>
 {
     new Income { Id = 1, Source = "Salary", Amount = 5000, Date = DateTime.Now.AddDays(-2) },
     new Income { Id = 2, Source = "Freelancing", Amount = 1200, Date = DateTime.Now.AddDays(-4) },
-    new Income {Id = 3, Source = "Stock market", Amount = 1800, Date = DateTime.Now.AddDays(-6) }
+    new Income {Id = 3, Source = "Stock market", Amount = 1800, Date = DateTime.Now.AddDays(-6) },
+    new Income {Id = 4, Source = "Dividend", Amount = 245, Date = DateTime.Now.AddDays(-8) },
+    new Income { Id = 5, Source = "Bonus", Amount = 750, Date = DateTime.Now.AddDays(-10) }
 };
 
 
-public IActionResult Income()
+public IActionResult Income(string searchString)
 {  
-    return View(IncomeData);
+    
+    IEnumerable<Income> filteredIncomeData = IncomeData;
+ if (!string.IsNullOrEmpty(searchString))
+ {
+    filteredIncomeData = IncomeData.Where(i => i.Source.Contains(searchString, StringComparison.OrdinalIgnoreCase)
+    || i.Amount.ToString().Contains(searchString) || i.Id.ToString().Contains(searchString));
+ }
+    ViewData["CurrentFiltered"] = searchString;
+    return View(filteredIncomeData);
 }
 
 public IActionResult EditIncome(int id)

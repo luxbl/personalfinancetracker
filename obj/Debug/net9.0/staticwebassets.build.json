@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RD4UJEw4NkGF1omCVGSohH9ARQ311+FRYykj5in5hxA=",
+  "Hash": "4vy/KenU9gPlhhzxGcX1lXiWWDZUBkJpou1HCNrCe+g=",
   "Source": "personalfinancetracker",
   "BasePath": "_content/personalfinancetracker",
   "Mode": "Default",
@@ -1088,6 +1088,27 @@
       "OriginalItemSpec": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
+      "Identity": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-6z959mqj88.gz",
+      "SourceId": "personalfinancetracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/personalfinancetracker",
+      "RelativePath": "css/account#[.{fingerprint=6z959mqj88}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/css/account.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rmrgyazfq8",
+      "Integrity": "HVbzB6mDIoWZhqACkPjHa5S+IeRvRnPa7QvBrHOW7l0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/css/account.css"
+    },
+    {
       "Identity": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/or2jfoarba-j5mq2jizvt.gz",
       "SourceId": "personalfinancetracker",
       "SourceType": "Discovered",
@@ -1403,6 +1424,27 @@
       "OriginalItemSpec": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/scopedcss/projectbundle/personalfinancetracker.bundle.scp.css"
     },
     {
+      "Identity": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/css/account.css",
+      "SourceId": "personalfinancetracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/",
+      "BasePath": "_content/personalfinancetracker",
+      "RelativePath": "css/account#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6z959mqj88",
+      "Integrity": "Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/account.css"
+    },
+    {
       "Identity": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/css/site.css",
       "SourceId": "personalfinancetracker",
       "SourceType": "Discovered",
@@ -1443,6 +1485,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/images/IMG_9488.JPG",
+      "SourceId": "personalfinancetracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/",
+      "BasePath": "_content/personalfinancetracker",
+      "RelativePath": "images/IMG_9488#[.{fingerprint}]?.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3x31k1v7hl",
+      "Integrity": "F7LXLBVEbG5852LerO1iZV6gAXWLgC7QauS0VwdSoLs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/IMG_9488.JPG"
     },
     {
       "Identity": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/js/site.js",
@@ -2728,6 +2791,304 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/account.6z959mqj88.css",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-6z959mqj88.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003344481605"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "298"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HVbzB6mDIoWZhqACkPjHa5S+IeRvRnPa7QvBrHOW7l0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 04:51:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6z959mqj88"
+        },
+        {
+          "Name": "label",
+          "Value": "css/account.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I="
+        }
+      ]
+    },
+    {
+      "Route": "css/account.6z959mqj88.css",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/css/account.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "471"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 04:51:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6z959mqj88"
+        },
+        {
+          "Name": "label",
+          "Value": "css/account.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I="
+        }
+      ]
+    },
+    {
+      "Route": "css/account.6z959mqj88.css.gz",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-6z959mqj88.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "298"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HVbzB6mDIoWZhqACkPjHa5S+IeRvRnPa7QvBrHOW7l0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 04:51:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6z959mqj88"
+        },
+        {
+          "Name": "label",
+          "Value": "css/account.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HVbzB6mDIoWZhqACkPjHa5S+IeRvRnPa7QvBrHOW7l0="
+        }
+      ]
+    },
+    {
+      "Route": "css/account.css",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-6z959mqj88.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003344481605"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "298"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HVbzB6mDIoWZhqACkPjHa5S+IeRvRnPa7QvBrHOW7l0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 04:51:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I="
+        }
+      ]
+    },
+    {
+      "Route": "css/account.css",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/css/account.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "471"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 04:51:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I="
+        }
+      ]
+    },
+    {
+      "Route": "css/account.css.gz",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-6z959mqj88.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "298"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HVbzB6mDIoWZhqACkPjHa5S+IeRvRnPa7QvBrHOW7l0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 04:51:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HVbzB6mDIoWZhqACkPjHa5S+IeRvRnPa7QvBrHOW7l0="
+        }
+      ]
+    },
+    {
       "Route": "css/site.b9sayid5wm.css",
       "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/1x4tzeapmz-b9sayid5wm.gz",
       "Selectors": [
@@ -3320,6 +3681,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4="
+        }
+      ]
+    },
+    {
+      "Route": "images/IMG_9488.3x31k1v7hl.JPG",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/images/IMG_9488.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1443035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F7LXLBVEbG5852LerO1iZV6gAXWLgC7QauS0VwdSoLs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 04:25:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3x31k1v7hl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/IMG_9488.JPG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F7LXLBVEbG5852LerO1iZV6gAXWLgC7QauS0VwdSoLs="
+        }
+      ]
+    },
+    {
+      "Route": "images/IMG_9488.JPG",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/images/IMG_9488.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1443035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F7LXLBVEbG5852LerO1iZV6gAXWLgC7QauS0VwdSoLs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 04:25:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F7LXLBVEbG5852LerO1iZV6gAXWLgC7QauS0VwdSoLs="
         }
       ]
     },

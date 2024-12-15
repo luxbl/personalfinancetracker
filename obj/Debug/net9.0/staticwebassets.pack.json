@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets/personalfinancetracker.4bvobb97rq.bundle.scp.css"
     },
     {
+      "Id": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/css/account.css",
+      "PackagePath": "staticwebassets/css/account.css"
+    },
+    {
       "Id": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/images/IMG_9488.JPG",
+      "PackagePath": "staticwebassets/images/IMG_9488.JPG"
     },
     {
       "Id": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/js/site.js",

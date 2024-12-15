@@ -1,15 +1,19 @@
 
 @{
     ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 @if (ViewBag.Error != null)
 {
     <p style="color: red;">@ViewBag.Error</p>
 }
-<main class="form-signin w-50 m-auto bg-body-secondary">
+<div class="account-container">
+    <div class="account-box">
+<!--<main class="form-signin w-50 m-auto bg-body-secondary">-->
 
-<div class="container-fluid text-center mt-5 bg-body-secondary"><h2>PersonalFinanceTracker</h2>
+<div class="text-center mt-0"><h2>PersonalFinanceTracker</h2>
+<div class="mud-grid-item mud-grid-item-xs-12 mud-grid-item-sm-6">Welcome to Login page</div>
 <form method="post">
     <div class="mb-3 d-flex justify-content-center">
         
@@ -22,7 +26,10 @@
     <div class="d-flex justify-content-center">
     <button class="btn btn-primary mb-1" type="submit">Login</button>
     </div>
+    
 </form>
 </div>
 </main>
+    </div>
+</div>
 

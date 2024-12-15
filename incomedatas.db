@@ -1,0 +1,10 @@
+CREATE TABLE incomes(
+Id INTEGER PRIMARY KEY AUTOINCREMENT,
+Source TEXT,
+
+Amount TEXT,
+Date INTEGER );
+
+INSERT INTO incomes (Id, Source, Amount, Date)
+VALUES ( 1, 'Salary', 2300, '12/14/2024');
+
