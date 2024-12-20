@@ -6,19 +6,37 @@ using Microsoft.Extensions.Configuration; // For accessing configuration
 using personalfinancetracker.Data;
 using personalfinancetracker.Models;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Account/Login";
+        options.LogoutPath = "/Account/Logout";
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+    });
 
 
 // Add services to the container.
-//builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews();
 
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 builder.Services.AddDistributedMemoryCache();
+
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"))); // Register AppDbContext with SQLite
+
+builder.Services.AddSession(options=>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 
 
 builder.WebHost.ConfigureKestrel(options =>
@@ -31,17 +49,13 @@ builder.WebHost.ConfigureKestrel(options =>
 });
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
-builder.Services.AddSession();
-builder.Services.AddSession(options =>
-{
-    options.IdleTimeout = TimeSpan.FromMinutes(30);
-    options.Cookie.HttpOnly = true;
-    options.Cookie.IsEssential = true;
-});
+//builder.Services.AddControllersWithViews();
+//builder.Services.AddSession();
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//builder.Services.AddDbContext<AppDbContext>(options =>
+   // options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 var app = builder.Build();
 
 
@@ -68,10 +82,10 @@ if(!context.Session.Keys.Contains("UserLoggedIn") && !context.Request.Path.Start
     context.Response.Redirect("/Account/Login");
     return;
 }
-await next();
+ await next();
 });
 
-app.MapStaticAssets();
+//app.MapStaticAssets();
 
 
 app.MapControllerRoute(
