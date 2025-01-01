@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/images/IMG_9488.JPG"
     },
     {
+      "Id": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/images/pexels-photo-281260.webp",
+      "PackagePath": "staticwebassets/images/pexels-photo-281260.webp"
+    },
+    {
       "Id": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

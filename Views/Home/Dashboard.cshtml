@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h1>Dashboard</h1>
+
+<div id="dashboard-content">
+    <!-- Real-time updates will be reflected here -->
+</div>
+
+<!-- Include SignalR client library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.0/signalr.min.js"></script>
+
+<script>
+    // Establish SignalR connection
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/financeHub") // The same endpoint mapped in Program.cs
+        .build();
+
+    // Listen for updates
+    connection.on("ReceiveUpdate", function (message) {
+        console.log("Real-time update: " + message);
+
+        // Update the dashboard content dynamically
+        const dashboardContent = document.getElementById("dashboard-content");
+        if (dashboardContent) {
+            dashboardContent.innerHTML += `<p>${message}</p>`;
+        }
+    });
+
+    // Start the connection
+    connection.start().catch(err => console.error("SignalR connection error:", err));
+</script>

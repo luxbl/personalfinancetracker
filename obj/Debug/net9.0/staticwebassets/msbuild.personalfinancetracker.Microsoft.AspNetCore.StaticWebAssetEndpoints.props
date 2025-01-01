@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/personalfinancetracker/css/account.6z959mqj88.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\account.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6z959mqj88"},{"Name":"integrity","Value":"sha256-Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I="},{"Name":"label","Value":"_content/personalfinancetracker/css/account.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"471"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 04:51:21 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/personalfinancetracker/css/account.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\account.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"471"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 04:51:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-huWldAFT03db2HPVkOuwK640XhG/hKZ4Z8OSrHdn0Lw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"483"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022huWldAFT03db2HPVkOuwK640XhG/hKZ4Z8OSrHdn0Lw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 01 Jan 2025 19:21:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/personalfinancetracker/css/account.itu29xpeq1.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\account.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"itu29xpeq1"},{"Name":"integrity","Value":"sha256-huWldAFT03db2HPVkOuwK640XhG/hKZ4Z8OSrHdn0Lw="},{"Name":"label","Value":"_content/personalfinancetracker/css/account.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"483"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022huWldAFT03db2HPVkOuwK640XhG/hKZ4Z8OSrHdn0Lw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 01 Jan 2025 19:21:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/personalfinancetracker/css/site.b9sayid5wm.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
@@ -47,6 +47,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-F7LXLBVEbG5852LerO1iZV6gAXWLgC7QauS0VwdSoLs="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1443035"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022F7LXLBVEbG5852LerO1iZV6gAXWLgC7QauS0VwdSoLs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 04:25:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/personalfinancetracker/images/pexels-photo-281260.2bjq67bb3s.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pexels-photo-281260.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2bjq67bb3s"},{"Name":"integrity","Value":"sha256-PpbclXI8WdwkbbsNjp9OA7h92oVmRVWh3sl/ZOPIfdM="},{"Name":"label","Value":"_content/personalfinancetracker/images/pexels-photo-281260.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"41770"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022PpbclXI8WdwkbbsNjp9OA7h92oVmRVWh3sl/ZOPIfdM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 01 Jan 2025 19:21:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/personalfinancetracker/images/pexels-photo-281260.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pexels-photo-281260.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PpbclXI8WdwkbbsNjp9OA7h92oVmRVWh3sl/ZOPIfdM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"41770"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022PpbclXI8WdwkbbsNjp9OA7h92oVmRVWh3sl/ZOPIfdM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 01 Jan 2025 19:21:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/personalfinancetracker/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

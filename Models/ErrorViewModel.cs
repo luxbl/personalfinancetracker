@@ -1,3 +1,6 @@
+using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Antiforgery;
+
 namespace personalfinancetracker.Models;
 
 public class ErrorViewModel

@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BZGRJbmNvbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/Views/Home/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/Views/Home/EditIncome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9FZGl0SW5jb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

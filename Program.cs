@@ -10,7 +10,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddSignalR();
+
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
@@ -48,14 +52,6 @@ builder.WebHost.ConfigureKestrel(options =>
     });
 });
 
-// Add services to the container.
-//builder.Services.AddControllersWithViews();
-//builder.Services.AddSession();
-
-
-//builder.Services.AddDbContext<AppDbContext>(options =>
-   // options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
 var app = builder.Build();
 
 
@@ -71,6 +67,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+
+
 
 app.UseAuthorization();
 app.UseSession();

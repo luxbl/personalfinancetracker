@@ -1,7 +1,8 @@
 namespace personalfinancetracker.Models;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
 
-public class Income
+public class Income : IdentityUser
 {
     [Key]
     public int Id { get; set; }

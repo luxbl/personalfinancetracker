@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4vy/KenU9gPlhhzxGcX1lXiWWDZUBkJpou1HCNrCe+g=",
+  "Hash": "VECHWfwqvCiydRWtUtMIDX5YlC3y9KVDX8W0pygd3g0=",
   "Source": "personalfinancetracker",
   "BasePath": "_content/personalfinancetracker",
   "Mode": "Default",
@@ -1088,12 +1088,12 @@
       "OriginalItemSpec": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-6z959mqj88.gz",
+      "Identity": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-itu29xpeq1.gz",
       "SourceId": "personalfinancetracker",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/personalfinancetracker",
-      "RelativePath": "css/account#[.{fingerprint=6z959mqj88}]?.css.gz",
+      "RelativePath": "css/account#[.{fingerprint=itu29xpeq1}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1102,8 +1102,8 @@
       "RelatedAsset": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/css/account.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "rmrgyazfq8",
-      "Integrity": "HVbzB6mDIoWZhqACkPjHa5S+IeRvRnPa7QvBrHOW7l0=",
+      "Fingerprint": "d4k77xmo3f",
+      "Integrity": "Y7Nni/0dgmSovbvQQ6INERz3J/0O+Qthym+JyHr3Pnk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/css/account.css"
@@ -1438,8 +1438,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6z959mqj88",
-      "Integrity": "Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I=",
+      "Fingerprint": "itu29xpeq1",
+      "Integrity": "huWldAFT03db2HPVkOuwK640XhG/hKZ4Z8OSrHdn0Lw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/account.css"
@@ -1506,6 +1506,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/IMG_9488.JPG"
+    },
+    {
+      "Identity": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/images/pexels-photo-281260.webp",
+      "SourceId": "personalfinancetracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/",
+      "BasePath": "_content/personalfinancetracker",
+      "RelativePath": "images/pexels-photo-281260#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2bjq67bb3s",
+      "Integrity": "PpbclXI8WdwkbbsNjp9OA7h92oVmRVWh3sl/ZOPIfdM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pexels-photo-281260.webp"
     },
     {
       "Identity": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/js/site.js",
@@ -2791,13 +2812,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/account.6z959mqj88.css",
-      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-6z959mqj88.gz",
+      "Route": "css/account.css",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-itu29xpeq1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003344481605"
+          "Quality": "0.003355704698"
         }
       ],
       "ResponseHeaders": [
@@ -2807,19 +2828,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "298"
+          "Value": "297"
         },
         {
           "Name": "ETag",
-          "Value": "\"HVbzB6mDIoWZhqACkPjHa5S+IeRvRnPa7QvBrHOW7l0=\""
+          "Value": "\"Y7Nni/0dgmSovbvQQ6INERz3J/0O+Qthym+JyHr3Pnk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 04:51:21 GMT"
+          "Value": "Wed, 01 Jan 2025 19:21:34 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2835,26 +2856,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I=\""
+          "Value": "W/\"huWldAFT03db2HPVkOuwK640XhG/hKZ4Z8OSrHdn0Lw=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "6z959mqj88"
-        },
-        {
-          "Name": "label",
-          "Value": "css/account.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I="
+          "Value": "sha256-huWldAFT03db2HPVkOuwK640XhG/hKZ4Z8OSrHdn0Lw="
         }
       ]
     },
     {
-      "Route": "css/account.6z959mqj88.css",
+      "Route": "css/account.css",
       "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/css/account.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2864,7 +2877,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "471"
+          "Value": "483"
         },
         {
           "Name": "Content-Type",
@@ -2872,11 +2885,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I=\""
+          "Value": "\"huWldAFT03db2HPVkOuwK640XhG/hKZ4Z8OSrHdn0Lw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 04:51:21 GMT"
+          "Value": "Wed, 01 Jan 2025 19:21:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-huWldAFT03db2HPVkOuwK640XhG/hKZ4Z8OSrHdn0Lw="
+        }
+      ]
+    },
+    {
+      "Route": "css/account.css.gz",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-itu29xpeq1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y7Nni/0dgmSovbvQQ6INERz3J/0O+Qthym+JyHr3Pnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 19:21:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y7Nni/0dgmSovbvQQ6INERz3J/0O+Qthym+JyHr3Pnk="
+        }
+      ]
+    },
+    {
+      "Route": "css/account.itu29xpeq1.css",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-itu29xpeq1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003355704698"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "297"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y7Nni/0dgmSovbvQQ6INERz3J/0O+Qthym+JyHr3Pnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 19:21:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"huWldAFT03db2HPVkOuwK640XhG/hKZ4Z8OSrHdn0Lw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "itu29xpeq1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/account.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-huWldAFT03db2HPVkOuwK640XhG/hKZ4Z8OSrHdn0Lw="
+        }
+      ]
+    },
+    {
+      "Route": "css/account.itu29xpeq1.css",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/css/account.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"huWldAFT03db2HPVkOuwK640XhG/hKZ4Z8OSrHdn0Lw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 19:21:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2886,7 +3044,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6z959mqj88"
+          "Value": "itu29xpeq1"
         },
         {
           "Name": "label",
@@ -2894,13 +3052,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I="
+          "Value": "sha256-huWldAFT03db2HPVkOuwK640XhG/hKZ4Z8OSrHdn0Lw="
         }
       ]
     },
     {
-      "Route": "css/account.6z959mqj88.css.gz",
-      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-6z959mqj88.gz",
+      "Route": "css/account.itu29xpeq1.css.gz",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-itu29xpeq1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2909,7 +3067,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "298"
+          "Value": "297"
         },
         {
           "Name": "Content-Type",
@@ -2917,11 +3075,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HVbzB6mDIoWZhqACkPjHa5S+IeRvRnPa7QvBrHOW7l0=\""
+          "Value": "\"Y7Nni/0dgmSovbvQQ6INERz3J/0O+Qthym+JyHr3Pnk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 04:51:21 GMT"
+          "Value": "Wed, 01 Jan 2025 19:21:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2939,7 +3097,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6z959mqj88"
+          "Value": "itu29xpeq1"
         },
         {
           "Name": "label",
@@ -2947,144 +3105,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HVbzB6mDIoWZhqACkPjHa5S+IeRvRnPa7QvBrHOW7l0="
-        }
-      ]
-    },
-    {
-      "Route": "css/account.css",
-      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-6z959mqj88.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003344481605"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "298"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HVbzB6mDIoWZhqACkPjHa5S+IeRvRnPa7QvBrHOW7l0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 04:51:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I="
-        }
-      ]
-    },
-    {
-      "Route": "css/account.css",
-      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/css/account.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "471"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 04:51:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ph0NwlLaLjLMIxHofyylkAl0XYAtHIcJ24dB4vHp01I="
-        }
-      ]
-    },
-    {
-      "Route": "css/account.css.gz",
-      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/obj/Debug/net9.0/compressed/opqv616flz-6z959mqj88.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "298"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HVbzB6mDIoWZhqACkPjHa5S+IeRvRnPa7QvBrHOW7l0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 04:51:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-HVbzB6mDIoWZhqACkPjHa5S+IeRvRnPa7QvBrHOW7l0="
+          "Value": "sha256-Y7Nni/0dgmSovbvQQ6INERz3J/0O+Qthym+JyHr3Pnk="
         }
       ]
     },
@@ -3763,6 +3784,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-F7LXLBVEbG5852LerO1iZV6gAXWLgC7QauS0VwdSoLs="
+        }
+      ]
+    },
+    {
+      "Route": "images/pexels-photo-281260.2bjq67bb3s.webp",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/images/pexels-photo-281260.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41770"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PpbclXI8WdwkbbsNjp9OA7h92oVmRVWh3sl/ZOPIfdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 19:21:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2bjq67bb3s"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pexels-photo-281260.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PpbclXI8WdwkbbsNjp9OA7h92oVmRVWh3sl/ZOPIfdM="
+        }
+      ]
+    },
+    {
+      "Route": "images/pexels-photo-281260.webp",
+      "AssetFile": "/Users/account/Desktop/personalfinancetrackerAPI/personalfinancetracker/wwwroot/images/pexels-photo-281260.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41770"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PpbclXI8WdwkbbsNjp9OA7h92oVmRVWh3sl/ZOPIfdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 19:21:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PpbclXI8WdwkbbsNjp9OA7h92oVmRVWh3sl/ZOPIfdM="
         }
       ]
     },
